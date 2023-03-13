@@ -1,4 +1,10 @@
 #Changelog
+
+##version [0.0.3] | 13/03/2023
+#Added
+- Quelque dialogue
+- mise en place de certains assets
+
 ##version [0.0.2] | 08/03/2023
 ###Added
 - Asset principal
