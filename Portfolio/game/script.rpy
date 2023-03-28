@@ -102,7 +102,7 @@ label alcool:
     show picwish at right
     with dissolve
     g "Boir ou conduire? Il faut choisir!"
-    g "Ce n'est pas qu'un slogan c'est aussi un jeu serieux."
+    g "Ce n'est pas qu'un slogan! C'est aussi un jeu serieux."
     g "Que j'ai réalisé en cours, il vous montre quels sont les répercussions possible après avoir consommé quelques verres de trop."
     g "Et comment ces effets peuvent vous conduire à faire un accident qui peut avoir des consèquences."
 menu:
