@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 102, in script
+    show picwish at rigth
+  File "game/script.rpy", line 102, in <module>
+    show picwish at rigth
+NameError: name 'rigth' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 102, in script
+    show picwish at rigth
+  File "C:\Users\ggvan\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1408, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\ggvan\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1367, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\ggvan\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1367, in <listcomp>
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\ggvan\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\ggvan\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 102, in <module>
+    show picwish at rigth
+NameError: name 'rigth' is not defined
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.0.3.22090809
+Portfolio 1.0
+Wed Mar 29 00:50:04 2023
